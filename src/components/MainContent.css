@@ -4,7 +4,7 @@
   
   .hero-section {
     height: 400px;
-    background: url('C:\Users\anupa\OneDrive\Desktop\React\react-spa\public\fitness-main.jpg') no-repeat center center;
+    background: url('fitness-main.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
