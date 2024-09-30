@@ -12,7 +12,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<MainContent />} />
+          <Route path="/react-spa/" element={<MainContent />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/login" element={<LoginPage />} />  {/* Add this route for LoginPage */}
