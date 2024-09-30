@@ -1,0 +1,33 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .navbar-contact a {
+    background-color: #46c93a;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .navbar-contact a:hover {
+    background-color: #34a32b;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
