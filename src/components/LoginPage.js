@@ -14,7 +14,7 @@ const LoginPage = () => {
     // Assuming any username and password combination is valid for now.
     if (username && password) {
       // Redirect to the main page after a successful login
-      navigate('/');
+      navigate('/react-spa/');
     } else {
       // You can show an error message here if needed
       alert('Please enter both username and password');
