@@ -21,6 +21,11 @@ const LoginPage = () => {
     }
   };
 
+  const handleForgotPassword = () => {
+    // Implement your logic for forgot password here, e.g., open a modal
+    console.log("Forgot password clicked");
+};
+
   return (
     <div className="login-container">
       <div className="login-form">
@@ -53,12 +58,15 @@ const LoginPage = () => {
           </div>
 
           <div className="options">
-            <label>
-              <input type="checkbox" />
-              Stay Signed In
-            </label>
-            <a href="#">Forgot Password?</a>
-          </div>
+    <label>
+        <input type="checkbox" />
+        Stay Signed In
+    </label>
+    <button onClick={handleForgotPassword} className="forgot-password-button">
+        Forgot Password?
+    </button>
+</div>
+
 
           <button type="submit" className="login-button">
             Log In

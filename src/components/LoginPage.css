@@ -95,3 +95,13 @@
     background-color: #e74c3c;
   }
   
+  /* LoginPage.css */
+.forgot-password-button {
+    background: none;
+    border: none;
+    color: blue; /* Or whatever color you want */
+    text-decoration: underline; /* To make it look like a link */
+    cursor: pointer;
+    padding: 0;
+    font: inherit; /* To inherit font styling from the parent */
+}
